@@ -3,9 +3,9 @@ output "instance_1_ip_addr" {
 }
 
 output "instance_2_ip_addr" {
-    value = aws_instance.instance_2.public_ip
+  value = aws_instance.instance_2.public_ip
 }
 
 output "database_instance_addr" {
-    value = aws_db_instance.db_instance.address
+  value = aws_db_instance.db_instance.address
 }
